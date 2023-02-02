@@ -27,3 +27,36 @@ body {
     font-family: 'Fredoka One';font-size: 22px;
     background-color: rgb(105, 125, 240);
 }
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin-bottom: 8%;
+    background-color: rgb(173, 120, 120);
+    padding: 5%;
+    border-radius: 20px;
+}
+
+.row {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    width: calc(100% / 3);
+}
+
+.col.middle {
+    margin: 0 20px;
+}
+
+.card {
+    background-color: rgb(5, 5, 34);
+    color: white;
+}
