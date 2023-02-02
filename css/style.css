@@ -30,11 +30,10 @@ body {
 
 .container {
     width: 80%;
-    max-width: 1200px;
-    margin-bottom: 8%;
+    max-width: 1100px;
     background-color: rgb(173, 120, 120);
-    padding: 5%;
     border-radius: 20px;
+    margin: 0 auto;
 }
 
 .row {
@@ -50,13 +49,35 @@ body {
 
 .col {
     width: calc(100% / 3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.card {
+    background-color: rgb(5, 5, 34);
+    color: white;
+    padding-bottom: 5px;
 }
 
 .col.middle {
     margin: 0 20px;
 }
 
-.card {
-    background-color: rgb(5, 5, 34);
-    color: white;
+img {
+    max-width: 100%;
+}
+
+.card-name {
+    display: inline;
+}
+
+.card-text {
+    margin-bottom: 15px;
+}
+
+.card-email {
+    font-size: .7rem;
+    color: rgb(0, 119, 255);
+    
 }
